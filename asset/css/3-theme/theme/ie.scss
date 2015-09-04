@@ -1,0 +1,71 @@
+/*
+Name: 			ie.css
+Written by: 	Okler Themes - (http://www.okler.net)
+Version: 		4.0.0
+*/
+/* Header */
+
+html {
+  &.ie header {
+    background: #fff;
+    filter: none;
+  }
+  &.ie8 header nav ul.nav-main ul.dropdown-menu, &.ie9 header nav ul.nav-main ul.dropdown-menu {
+    filter: none !important;
+  }
+  &.ie8 {
+    div.home-concept {
+      background: none;
+      div {
+        &.process-image, &.project-image {
+          background: none;
+        }
+      }
+    }
+    header ul.social-icons {
+      margin-top: 2px;
+      li {
+        background-color: #F1F1F1;
+      }
+    }
+    ul.history li div.thumb {
+      background: none;
+    }
+    div {
+      &.testimonial-author div.img-thumbnail {
+        height: 60px;
+        width: 60px;
+        img {
+          float: left;
+        }
+      }
+      &.plan-ribbon-wrapper {
+        top: -30px;
+        div.plan-ribbon {
+          text-align: left;
+          padding-left: 20px;
+        }
+      }
+    }
+    .parallax {
+      background-position: 50% 50% !important;
+    }
+    .thumb-info .thumb-info-title {
+      background: #000;
+    }
+  }
+}
+
+/* Navigation */
+
+/* Social Icons */
+
+/* History */
+
+/* Testimonials */
+
+/* Pricing Plans */
+
+/* Parallax */
+
+/* Thumbs */
